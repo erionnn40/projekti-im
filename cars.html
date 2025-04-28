@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Makinat - ONLINE CARS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">ONLINE <span>CARS</span></div>
+  <ul class="nav-links">
+    <li><a href="index.html">KRYEFAQA</a></li>
+    <li><a href="cars.html" class="active">MAKINAT</a></li>
+    <li><a href="about.html">RRETH NESH</a></li>
+  </ul>
+  <div class="contact-info">
+    <a href="tel:+1234567890"><i class="fas fa-phone"></i> +1 234 567 890</a>
+    <a href="mailto:info@onlinecars.com"><i class="fas fa-envelope"></i> info@onlinecars.com</a>
+  </div>
+</nav>
+
+<section class="cars-section">
+  <div class="cars-header">
+    <h1>Koleksioni Ynë i Makinave të Vjetra</h1>
+    <p>Zbuloni koleksionin tonë ekskluziv të makinave klasike gjermane</p>
+  </div>
+
+  <div class="brand-buttons">
+    <button class="brand-btn" onclick="showCars('audi')">
+      <img src="audi1.jpg" alt="Audi">
+      <span>Audi Oldtimer</span>
+    </button>
+    <button class="brand-btn" onclick="showCars('mercedes')">
+      <img src="mercedes.jpg" alt="Mercedes">
+      <span>Mercedes Oldtimer</span>
+    </button>
+    <button class="brand-btn" onclick="showCars('bmw')">
+      <img src="bmw.jpg" alt="BMW">
+      <span>BMW Oldtimer</span>
+    </button>
+  </div>
+
+  <div id="cars-gallery" class="cars-gallery">
+    <!-- Makinat do të shfaqen këtu përmes JavaScript -->
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
